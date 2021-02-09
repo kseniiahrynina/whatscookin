@@ -1,0 +1,23 @@
+{
+  "name": "whatscookin",
+  "version": "1.0.0",
+  "description": "Recipe search engine",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ksenia Grinina",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.558",
+    "sass": "^1.32.5",
+    "swiper": "^6.4.10"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "swipe": "^1.7.7"
+  }
+}
